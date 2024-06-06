@@ -10,6 +10,6 @@ def read_root():
 def read_contacts():
     return [{"name": "John", "age": 30}, {"name": "Jane", "age": 29}]
 
-@app.get("/about")
+@app.get("/aboutss")
 def read_contacts():
     return [{"name": "John", "age": 30}, {"name": "Jane", "age": 29}]
