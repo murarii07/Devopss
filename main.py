@@ -9,3 +9,7 @@ def read_root():
 @app.get("/contacts")
 def read_contacts():
     return [{"name": "John", "age": 30}, {"name": "Jane", "age": 29}]
+
+@app.get("/about")
+def read_contacts():
+    return [{"name": "John", "age": 30}, {"name": "Jane", "age": 29}]
