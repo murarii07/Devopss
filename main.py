@@ -13,3 +13,7 @@ def read_contacts():
 @app.get("/about")
 def read_contacts():
     return [{"name": "John", "age": 30}, {"name": "Jane", "age": 29}]
+
+@app.get("/about1")
+def read_contacts():
+    return [{"name": "John", "age": 30}, {"name": "Jane", "age": 29}]
