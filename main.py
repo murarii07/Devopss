@@ -21,3 +21,7 @@ def read_contacts():
 @app.get("/about1")
 def read_contacts():
     return [{"name": "John", "age": 30}, {"name": "Jane", "age": 29}]
+
+@app.get("/details")
+def read_details():
+    return [{"usernmame":"succeded"}]
